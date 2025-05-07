@@ -1,20 +1,41 @@
 div.title {
     background-color: rgb(10, 10, 10);
     margin-left: -8px; 
-    margin-top: -8px;
+    margin-top: -32px;
     margin-right: -8px;
 }
 a{
     color: rgb(200, 200, 200);
-    font-size: 6ch;
-    margin-left:calc(25%);
+    margin-left: 25%;
     /* margin-right: 20%; */
     text-decoration: none;
+    white-space: nowrap;
 }
 h1{
     color: rgb(200, 200, 200);
+    font-size: 6ch;
+}
+h2{
+    color: rgb(200, 200, 200);
     font-size: 5ch;
+}
+h3{
+    color: rgb(200, 200, 200);
+    font-size: 4ch;
 }
 body{
     background-color: rgb(30, 30, 30);
+}
+div.note {
+    margin-top: 5%;
+    background-color: rgb(42, 42, 42);
+    border-radius: 15px;
+    border-color: rgb(10, 10, 10);
+    border-style:solid;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+img.medium{
+    width: 750px;
+    height: auto;
 }
